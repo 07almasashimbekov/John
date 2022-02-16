@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo:regular,500,700,900&display=swap");
+
+@import "_normalize";
+
+// GLOBAL VARIBALES
+$primary-color: #ff6464;
+$secondary-color: #00a8cc;
+$dark-color: #21243d;
+$light-color: #8695a4;
+$white: #fff;
+$black: #000;
+
+//====================================== HEADER START ======================================\\
+$maxWidthContainer: 876px;
+$md1: $maxWidthContainer + 20px;
+$md2: 991.98px;
+$md3: 767.98px;
+$md4: 576.98px;
+$md5: 459.98px;
+
+._container {
+	max-width: $md1;
+	padding: 0 20px;
+	margin: 0 auto;
+
+	@media screen and (max-width: $md1) {
+		max-width: $md3;
+	}
+	@media (max-width: $md3) {
+		max-width: $md4;
+	}
+	@media (max-width: $md4) {
+		max-width: $md5;
+	}
+}
+
+@import "_header";
+
+@import "_home";
