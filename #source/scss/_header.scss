@@ -74,6 +74,10 @@
 	&:hover {
 		color: #ff6464;
 	}
+
+	&._active {
+		color: #ff6464;
+	}
 }
 .header .menu > ul > li .menu-subs {
 	position: absolute;
@@ -208,7 +212,6 @@
 
 	.header .menu .menu-mobile-header {
 		position: relative;
-		position: sticky;
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -221,7 +224,6 @@
 		top: 0;
 		height: 60px;
 		z-index: 110;
-		border-bottom: 1px solid #fff;
 	}
 	.header .menu .menu-mobile-header .menu-mobile-arrow {
 		display: none;
@@ -246,7 +248,6 @@
 		width: 60px;
 		height: 60px;
 		text-align: center;
-		border-left: 1px solid #fff;
 		color: #000;
 		background-color: inherit;
 	}

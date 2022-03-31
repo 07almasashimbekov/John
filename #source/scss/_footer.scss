@@ -1,0 +1,18 @@
+.footer {
+	// .footer_socialt
+	padding: 50px 0;
+
+	&_social {
+	}
+
+	// .footer_copy
+
+	&_copy {
+		text-align: center;
+		color: $dark-color;
+		font-size: 14px;
+		font-weight: 400;
+	}
+}
+.social {
+}
